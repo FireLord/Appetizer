@@ -14,6 +14,7 @@
 		84C964782B8C628000DFDC85 /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C964772B8C628000DFDC85 /* AppetizerListView.swift */; };
 		84C9647A2B8C629800DFDC85 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C964792B8C629700DFDC85 /* AccountView.swift */; };
 		84C9647C2B8C62A900DFDC85 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9647B2B8C62A900DFDC85 /* OrderView.swift */; };
+		84C9647E2B8C699C00DFDC85 /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9647D2B8C699C00DFDC85 /* Appetizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		84C964772B8C628000DFDC85 /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
 		84C964792B8C629700DFDC85 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		84C9647B2B8C62A900DFDC85 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		84C9647D2B8C699C00DFDC85 /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				848B70422B8C5F1400354826 /* AppetizersApp.swift */,
+				84C9647D2B8C699C00DFDC85 /* Appetizer.swift */,
 				848B70442B8C5F1400354826 /* AppetizersTabView.swift */,
 				84C964772B8C628000DFDC85 /* AppetizerListView.swift */,
 				84C964792B8C629700DFDC85 /* AccountView.swift */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C9647E2B8C699C00DFDC85 /* Appetizer.swift in Sources */,
 				84C9647A2B8C629800DFDC85 /* AccountView.swift in Sources */,
 				848B70452B8C5F1400354826 /* AppetizersTabView.swift in Sources */,
 				848B70432B8C5F1400354826 /* AppetizersApp.swift in Sources */,
