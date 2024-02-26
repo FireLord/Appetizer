@@ -22,6 +22,7 @@
 		84C964882B8C7EBE00DFDC85 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C964872B8C7EBE00DFDC85 /* Alert.swift */; };
 		84C9648A2B8C83A900DFDC85 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C964892B8C83A900DFDC85 /* LoadingView.swift */; };
 		84C9648E2B8C8A1200DFDC85 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9648D2B8C8A1200DFDC85 /* RemoteImage.swift */; };
+		84C9649D2B8C97CF00DFDC85 /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9649C2B8C97CF00DFDC85 /* AppetizerDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		84C964872B8C7EBE00DFDC85 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		84C964892B8C83A900DFDC85 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		84C9648D2B8C8A1200DFDC85 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		84C9649C2B8C97CF00DFDC85 /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			children = (
 				84C964852B8C7BEC00DFDC85 /* AppetizerListViewModel.swift */,
 				84C964772B8C628000DFDC85 /* AppetizerListView.swift */,
+				84C9649C2B8C97CF00DFDC85 /* AppetizerDetailView.swift */,
 			);
 			path = AppetizerListView;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				84C9648A2B8C83A900DFDC85 /* LoadingView.swift in Sources */,
 				84C9648E2B8C8A1200DFDC85 /* RemoteImage.swift in Sources */,
 				848B70452B8C5F1400354826 /* AppetizersTabView.swift in Sources */,
+				84C9649D2B8C97CF00DFDC85 /* AppetizerDetailView.swift in Sources */,
 				848B70432B8C5F1400354826 /* AppetizersApp.swift in Sources */,
 				84C964862B8C7BEC00DFDC85 /* AppetizerListViewModel.swift in Sources */,
 				84C964882B8C7EBE00DFDC85 /* Alert.swift in Sources */,
