@@ -11,7 +11,7 @@ struct APButton: View {
     let title: LocalizedStringKey
     
     var body: some View {
-        Text("Test Button")
+        Text(title)
             .font(.title2)
             .fontWeight(.semibold)
             .frame(width: 260, height: 50)
