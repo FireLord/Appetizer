@@ -51,6 +51,18 @@ import SwiftUI
                 appetizers = try await NetworkManager.shared.getAppetizers()
                 isLoading = false
             } catch {
+                if let apError = error as? APError {
+                    switch apError {
+                    case .invalidURL:
+                        alertItem = AlertContext.invalidURL
+                    case .invalidResponse:
+                        alertItem = AlertContext.invalidResponse
+                    case .invalidData:
+                        alertItem = AlertContext.invalidData
+                    case .unableToComplete:
+                        alertItem = AlertContext.unableToComplete
+                    }
+                }
                 alertItem = AlertContext.invalidResponse
                 isLoading = false
             }
