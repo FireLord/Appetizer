@@ -22,9 +22,11 @@ struct LoadingView: View {
     var body: some View {
         ZStack {
             Color(.systemBackground)
-                ignoresSafeArea()
+                .edgesIgnoringSafeArea(.all)
             
-            ActivityIndicator()
+            ProgressView()
+                .progressViewStyle(CircularProgressViewStyle(tint: .brandPrimary))
+                .scaleEffect(2)
         }
     }
 }
