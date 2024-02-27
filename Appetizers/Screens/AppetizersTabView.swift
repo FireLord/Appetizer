@@ -26,8 +26,6 @@ struct AppetizersTabView: View {
                     Text("Order")
                 }
         }
-        .allowsTightening(true)
-        .tint(.brandPrimary)
     }
 }
 
